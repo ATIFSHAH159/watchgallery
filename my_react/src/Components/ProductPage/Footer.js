@@ -34,7 +34,10 @@ function Footer()
                 <NavLink className="links">30 Day Returns/Exchange</NavLink>
                 <NavLink className="links">Special Discounts</NavLink>
                 <NavLink className="links">Track Order</NavLink>
-                <NavLink className="links">FAQS</NavLink>
+                {/* <NavLink to='/Faqs' className="links">FAQS</NavLink> */}
+                <Link to='/Faqs'>
+                FAQs
+                </Link>
             </ul>
         </footer>
         <div className="subs">

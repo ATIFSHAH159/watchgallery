@@ -16,6 +16,7 @@ import ViewProduct from "./Components/AdminView/ViewProduct";
 import Example from "./Components/AdminView/AddProduct";
 import PaymentCheckout from "./Components/Payment/paymentCheckout";
 import ForgotPassword from "./Components/Login/ForgotPassword";
+import Faqs from "./Faqs";
 
 function App()
 {
@@ -43,6 +44,8 @@ function App()
           <Route path="/Admin/ViewProduct" element = {<ViewProduct />} />
           <Route path="/paymentCheckout" element = { <PaymentCheckout /> } />
           <Route path="/Login/ForgotPassword" element = { <ForgotPassword /> } />
+          <Route path="/Faqs" element = { <Faqs/> } />
+          
         </Routes>
     </div>
   );
